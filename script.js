@@ -138,14 +138,12 @@ tl.to("#key-video",{
 tl.to("#key-point-nine",{
    opacity:0,
    duration:-.1,
-   // ease:Expo.Inout,
    delay:.7
 },"e")
 tl.to("#key-point-eight",{
    opacity:1,
    duration:-.1,
    delay:.7
-   // ease:Expo.Inout,
 },"e")
 tl.to(".key-data-content1",{
    y:-280,
@@ -161,18 +159,15 @@ tl.to(".key-data-content2",{
 tl.to("#l-width",{
    opacity:0,
    duration:-.1,
-   // ease:Power1,
 
 })
 tl.to("#l-width",{
    height:"0%",
    opacity:1,
    duration:-.1,
-   // ease:Power1,
 })
 
 tl.to("#l-width",{
-   // opacity:1,
    height:"100%",
    ease:Power1,
    delay:.7
@@ -186,15 +181,11 @@ tl.to("#key-point-eight",{
    opacity:0,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"f")
 tl.to("#key-point-seven",{
    opacity:1,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"f")
 tl.to(".key-data-content2",{
    y:-280,
@@ -222,39 +213,31 @@ tl.to("#l-width",{
    height:"100%",
    ease:Power1,
     delay:.7,
-   // delay:-.5
 },"g")
 tl.to("#key-video3",{
    top:"0%",
    ease:Power1,
     delay:.7,
-   // delay:-.5
 },"g")
 tl.to("#key-point-seven",{
    opacity:0,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"g")
 tl.to("#key-point-six",{
    opacity:1,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"g")
 tl.to(".key-data-content3",{
    y:-280,
    ease:Power0,
     delay:.7,
-   // delay:-.5
 },"g")
 tl.to(".key-data-content4",{
    y:-135,
    ease:Power0,
     delay:.7,
-   // delay:-.5
 },"g")
 tl.to("#l-width",{
    opacity:0,
@@ -272,37 +255,29 @@ tl.to("#l-width",{
    height:"100%",
     delay:.7,
    ease:Power1,
-   // delay:-.5
 },"h")
 tl.to("#key-img",{
    top:"0%",
    ease:Power1,
     delay:.7,
-   // delay:-.5
 },"h")
 tl.to("#key-point-six",{
    opacity:0,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"h")
 tl.to("#key-point-five",{
    opacity:1,
    duration:-.1,
    delay:1.2
-   // ease:Expo.Inout,
-   // delay:-.5
 },"h")
 tl.to(".key-data-content4",{
    y:-270,
     delay:.7,
    ease:Power0,
-   // delay:-.5
 },"h")
 tl.to(".key-data-content5",{
    y:-135,
    ease:Power0,
     delay:.7,
-   // delay:-.5
 },"h")
