@@ -234,6 +234,7 @@ font-weight: 500;
   #l-width{
     width: 100%;
     height: 0%;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 5S; */
     background-color: #fff;
 
   }
@@ -250,9 +251,13 @@ top: 100%;
     position: absolute;
     top: 25%;
     display: flex;
+    opacity: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  #key-point-nine{
+    opacity: 1;
   }
   
  .videos,
