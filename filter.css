@@ -1,0 +1,114 @@
+.coh-view-filter.lp-teaser-filter-nav-container {
+    display: flex;
+    gap: 32px;
+    margin: 120px;
+    text-transform: uppercase;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .coh-view-filter.lp-teaser-filter-nav-container .active {
+    font-family: "LaPrairie-Regular";
+    border-bottom: 2px solid #4b4b4b;
+    padding-bottom: 13px;
+  }
+  
+  .coh-view-filter.lp-teaser-filter-nav-container ul li a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .lp-teaser-related-article-page-type,
+  .lp-teaser-filter-page-type div {
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .lp-teaser-realated-articles-title,
+  .lp-teaser-filter-news-title {
+    font-family: "LaPrairie-Regular";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    line-height: 24px;
+  }
+  
+  .lp-teaser-filter-see-more-container-button {
+    padding-bottom: 40px;
+  }
+  
+  .lp-teaser-filter-see-more-container-button ul {
+    text-align: center;
+  }
+  
+  .lp-teaser-filter-see-more-container-button ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 4px 40px;
+    border: 1px solid #4b4b4b;
+    border-radius: 2px;
+  }
+  
+  .lp-related-articles-heading {
+    margin: 74px 0;
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .lp-teaser-related-article-page-type,
+    .lp-teaser-filter-page-type div {
+      margin: 24px 0 16px;
+    }
+    .lp-teaser-realated-articles-title,
+    .lp-teaser-filter-news-title {
+      font-size: 20px;
+      margin-bottom: 160px;
+    }
+    .lp-teaser-realated-articles-title {
+      margin-bottom: 120px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .coh-view-filter.lp-teaser-filter-nav-container {
+      margin: 45px 0;
+      gap: 20px;
+    }
+    .lp-teaser-related-article-page-type,
+    .lp-teaser-filter-page-type div {
+      margin: 19px 0 10px;
+    }
+    .lp-teaser-realated-articles-title,
+    .lp-teaser-filter-news-title {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  
+    .lp-teaser-filter-items-container .coh-col-xs-12 {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  .filter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .filter p {
+    max-width: 764px;
+  }
