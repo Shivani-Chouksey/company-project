@@ -3,6 +3,8 @@
     gap: 32px;
     margin: 120px;
     text-transform: uppercase;
+    justify-content: center;
+    list-style: none;
   }
   
   .coh-view-filter.lp-teaser-filter-nav-container .active {
