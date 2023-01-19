@@ -5,21 +5,23 @@ var tl=gsap.timeline({
    pin:true,
    scrub:true,
    stagger:1,
-   end: "+=" + (window.innerHeight * 4)
+   end: "+=" + (window.innerHeight * 8)
 },
 })
 
 tl.to("#text",{
    top:"50%",
    opacity:1,
-   ease:Power1
+   ease:Power1,
+   duration:6
 })
 // 
 tl.to("#two",{
    top:"0%",
    scale:1,
    ease:Power1,
-   delay:.1
+   delay:.1,
+   duration:6
 },"same")
 tl.to("#content",{
    scale:1,
@@ -29,6 +31,7 @@ tl.to("#content",{
 tl.to("#first-img",{
    scale:1,
    ease:Power1,
+   duration:3,
    delay:.1
 },"same")
 tl.to("#text",{
@@ -106,6 +109,11 @@ tl.to(".key-section-middle-content",{
    ease:Power1,
    delay:.5
 },"d")
+
+// .lp-key-data-media.array.forEach(element => {
+   
+// });
+
 tl.to("#pimg",{
    top:"-20%",
     ease:Power1,
@@ -281,3 +289,166 @@ tl.to(".key-data-content5",{
    ease:Power0,
     delay:.7,
 },"h")
+
+const tlt= gsap.timeline({
+   scrollTrigger:{
+      trigger:".view-id-news",
+      start:"top top",
+   pin:true,
+   scrub:true,
+   stagger:1,
+   end: "+=" + (window.innerHeight * 5)
+},
+})
+
+tlt.to(".coh-row-inner",{
+   top:"0%",
+   scale:.9,
+   ease:Power0,
+   duration:4
+},"z")
+tlt.to(".filter",{
+   filter:"blur(5px)",
+   opacity:0,
+   ease:Power1,
+   delay:.6
+},"z")
+tlt.to(".coh-row-inner",{
+   top:"-100%",
+   ease:Power0,
+   // scale:.8,
+
+   delay:.5,
+   duration:4
+},"o")
+tlt.to(".lp-teaser-filter-see-more-container-button",{
+   top:"25%",
+   ease:Power0,
+   duration:4,
+   delay:.4
+},"o")
+// tlt.to(".lp-teaser-filter-see-more-container-button",{
+//    top:"10%",
+//    ease:Power0,
+//    duration:4,
+//    delay:1
+// },"o")
+// tlt.to(".lp-teaser-filter-see-more-container-button",{
+//    top:"95%",
+//    ease:Power0,
+//    duration:7,
+//    // delay:10
+// })
+// tlt.to(".lp-teaser-filter-see-more-container-button",{
+//    top:"85%",
+//    ease:Power0,
+//    delay:4
+// })
+// tlt.to(".coh-row-inner",{
+//    top:"-100%",
+//    ease:Power0,
+//    scale:.9,
+
+//    delay:.1,
+//    duration:4
+// },"y")
+// tlt.to(".lp-teaser-filter-see-more-container-button",{
+//    top:"0%",
+//    ease:Power0,
+//    delay:.1
+// },"y")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var tm=gsap.timeline({
+//    scrollTrigger:{
+//       scroll:body,
+//       trigger:"body",
+//       start:"top top",
+//       pinSpacing:"false",
+//        pin:true,
+  
+//        scrub:true,
+      //   stagger:1,
+   // end: "+=" + (window.innerHeight * 20)
+// }
+// });
+// tm.to(".filter",{
+//    top:"50%",
+   // filter:"blur(5px)",
+   // opacity:1,
+   // ease:Power1
+// })
+// tl2.from(".view-id-news",{
+//    // top:"0%",
+//    yparent:-100,
+//    ease:Power1,
+//    delay:8
+// },"k")
+// tl2.to(".coh-accordion-tabs",{
+// y:-700,
+// duration:3,
+// ease:Power1,
+// delay:-.5
+// },"i")
+// tl.to(".coh-accordion-tabs",{
+// y:-600,
+// duration:3,
+// ease:Power1,
+// delay:-.5
+// },"i")
+// tl2.to(".filter",{
+//    top:"50%",
+//    ease:Power1,
+   // opacity:1,
+   // delay:2,
+// })
+// gsap.to(".filter",{
+//    scrollTrigger:{
+//       scroll:body,
+// trigger:".filter",
+// start:"top 80%",
+// markers:true,
+// // stagger:1,
+// scrub:true,
+// // pin:true
+//    },
+//    top:"50%",
+//    ease:Power1,
+//    opacity:1,
+//    // duration:6
+// })
+
+// tl2.to(".coh-row-inner",{
+//    // top:"30%",
+//    ease:Power1,
+//    y:-1200,
+//    // duration:8,
+// delay:8,
+// scale:1
+// },)
+// tl.to(".filter",{
+// filter:"blur(5px)",
+//    ease:Power1,
+//    delay:5
+// })

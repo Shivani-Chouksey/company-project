@@ -1,4 +1,9 @@
-.coh-row-inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: -0.9375rem; margin-right: -0.9375rem; }
+.coh-row-inner { width:100%;
+display: flex;
+align-items: center;
+left: 1%;
+  background-color: white;top: 200%;transform: scale(2);position: absolute;
+  display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: -0.9375rem; margin-right: -0.9375rem; }
 @media (max-width: 1399px) { .coh-row-inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: -0.9375rem; margin-right: -0.9375rem; } }
 @media (max-width: 1169px) { .coh-row-inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: -0.9375rem; margin-right: -0.9375rem; } }
 @media (max-width: 1023px) { .coh-row-inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: -0.9375rem; margin-right: -0.9375rem; } }
@@ -691,8 +696,10 @@ body { font-size: 16px; }
   .coh-accordion-tabs > .coh-accordion-tabs-inner .coh-accordion-tabs-display-tabs-xs > .coh-accordion-tabs-content-wrapper .coh-accordion-title { display: none; } }
 
 
-
-
+  .lp-teaser-filter-see-more-container-button a{
+    position: absolute;top: 50%;left: 42%;transform: translate(-50%,-50%);}
+  
+.lp-teaser-filter-see-more-container-button{position: absolute;width: 100vw;right: 0%; height: 300px; top: 120%;}
 .coh-container { display: block; }
 .coh-container:before, .coh-container:after { clear: both; content: " "; display: table; }
 .coh-container-boxed { margin: 0 auto; max-width: 83.75rem; }
@@ -701,7 +708,7 @@ body { font-size: 16px; }
 @media (max-width: 1023px) { .coh-container-boxed { margin: 0 auto; max-width: 44.25rem; } }
 @media (max-width: 767px) { .coh-container-boxed { margin: 0 auto; max-width: 31.5625rem; } }
 @media (max-width: 564px) { .coh-container-boxed { max-width: none; margin-left: 1.25rem; margin-right: 1.25rem; } }
-.coh-container-boxed .coh-container-boxed { margin-right: auto; margin-left: auto; }
+.coh-container-boxed .coh-container-boxed { margin-right: auto;  margin-left: auto; }
 .dx8-aov { visibility: hidden; }
 
 
