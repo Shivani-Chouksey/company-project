@@ -5,7 +5,7 @@ var tl=gsap.timeline({
    pin:true,
    scrub:true,
    stagger:1,
-   end: "+=" + (window.innerHeight * 8)
+   end: "+=" + (window.innerHeight * 12)
 },
 })
 
@@ -107,7 +107,8 @@ tl.to("#pimg",{
 tl.to(".key-section-middle-content",{
    top:"0%",
    ease:Power1,
-   delay:.5
+   delay:.5,
+   duration:3
 },"d")
 
 // .lp-key-data-media.array.forEach(element => {
@@ -124,19 +125,20 @@ tl.to(".lp-key-data-items ",{
    top:"0%",
    ease:Power1,
    delay:1,
-   scale:.9
-})
+   scale:.9,
+   duration:3
+},"w")
 
 tl.to("#key-first-screen-content-wrapper",{
    filter: "blur(8px)",
    opacity:0,
    ease:Power1,
-   delay:-.5
-})
+   delay:1.8
+},"w")
 tl.to("#l-width",{
    height:"100%",
    ease:Power1,
-   delay:.5
+   delay:.6
 },"e")
 tl.to("#key-video",{
    top:"0%",
@@ -297,66 +299,20 @@ const tlt= gsap.timeline({
    pin:true,
    scrub:true,
    stagger:1,
-   end: "+=" + (window.innerHeight * 5)
 },
 })
 
 tlt.to(".coh-row-inner",{
-   top:"0%",
+   top:"10%",
    scale:.9,
    ease:Power0,
-   duration:4
+   delay:-.5
 },"z")
 tlt.to(".filter",{
    filter:"blur(5px)",
    opacity:0,
-   ease:Power1,
-   delay:.6
-},"z")
-tlt.to(".coh-row-inner",{
-   top:"-100%",
-   ease:Power0,
-   // scale:.8,
-
-   delay:.5,
-   duration:4
-},"o")
-tlt.to(".lp-teaser-filter-see-more-container-button",{
-   top:"25%",
-   ease:Power0,
-   duration:4,
-   delay:.4
-},"o")
-// tlt.to(".lp-teaser-filter-see-more-container-button",{
-//    top:"10%",
-//    ease:Power0,
-//    duration:4,
-//    delay:1
-// },"o")
-// tlt.to(".lp-teaser-filter-see-more-container-button",{
-//    top:"95%",
-//    ease:Power0,
-//    duration:7,
-//    // delay:10
-// })
-// tlt.to(".lp-teaser-filter-see-more-container-button",{
-//    top:"85%",
-//    ease:Power0,
-//    delay:4
-// })
-// tlt.to(".coh-row-inner",{
-//    top:"-100%",
-//    ease:Power0,
-//    scale:.9,
-
-//    delay:.1,
-//    duration:4
-// },"y")
-// tlt.to(".lp-teaser-filter-see-more-container-button",{
-//    top:"0%",
-//    ease:Power0,
-//    delay:.1
-// },"y")
+   delay:-.3
+})
 
 
 

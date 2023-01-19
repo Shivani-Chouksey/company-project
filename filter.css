@@ -101,17 +101,19 @@
   }
 
   .filter {
-    top: 50%;
-    left: 50%;
-    height: 150px;
-    width: 764px;
+    /* top: 150%; */
+    /* left: 50%; */
+    height: 250px;
+    width:100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    position: absolute;
-    transform: translateX(-50%);
+    /* position: absolute; */
+    /* background-color: #ac1616; */
+    /* transform: translateX(-50%); */
+    /* z-index: 999999999; */
   }
 
   .filter p {
