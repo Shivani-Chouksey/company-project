@@ -37,8 +37,8 @@ tl.to("#first-img",{
 tl.to("#text",{
    filter: "blur(8px)",
       ease:Power1,
-      delay:-.5
-   },)
+      delay:.5
+   },"same")
 tl.to("#carep",{
    width:"100%",
    ease:Power1,
@@ -303,7 +303,7 @@ const tlt= gsap.timeline({
 })
 
 tlt.to(".coh-row-inner",{
-   top:"16%",
+   top:"20%",
    scale:.9,
    ease:Power0,
    delay:-.5
