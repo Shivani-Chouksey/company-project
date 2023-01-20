@@ -303,7 +303,7 @@ const tlt= gsap.timeline({
 })
 
 tlt.to(".coh-row-inner",{
-   top:"10%",
+   top:"16%",
    scale:.9,
    ease:Power0,
    delay:-.5

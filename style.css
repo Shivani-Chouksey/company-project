@@ -7,9 +7,10 @@
 html,body{
     height: 100%;
     width: 100%;
+    
 }
 #main{
-    width: 100vw;
+    width: inherit;
     overflow-x: hidden;
     position: relative;
 }
@@ -386,25 +387,15 @@ top: 100%;
   }
   section{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    /* background-color: rgb(28, 177, 28); */
-    /* overflow: hidden; */
   }
-  /* .coh-container .coh-container-boxed{
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    height: 100%;
-    background-color: yellow;
-    z-index: 999;
-  } */
+ 
    .view-id-news{
-    width: 100%;
+    width: 100vw;
     height: 200vh;
-    /* background-color: blue; */
-    /* position: absolute; */
-    /* overflow: hidden; */
+
+    overflow: hidden;
     position: relative;
   }
  
