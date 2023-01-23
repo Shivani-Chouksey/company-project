@@ -103,6 +103,35 @@ tl.to("#pimg",{
     duration:3,
     
  },"c")
+ tl.to("#history",{
+   top:"0%",
+   ease:Power1,
+   delay:1,
+   duration:3
+ })
+
+ tl.to(".history-txt",{
+   filter:"blur(4px)",
+   ease:Power1,
+   duration:3,
+   delay:1
+ })
+ tl.to(".history-txt",{
+   opacity:"0",
+
+ })
+ tl.to(".date-text",{
+   top:"-90%",
+   ease:Power1,
+   duration:10,
+
+ },"k")
+ tl.to("#history-innerline",{
+   bottom:"0%",
+   ease:Power1,
+   duration:6,
+   delay:3
+ },"k")
 
 tl.to(".key-section-middle-content",{
    top:"0%",
@@ -303,16 +332,19 @@ const tlt= gsap.timeline({
 })
 
 tlt.to(".coh-row-inner",{
-   top:"20%",
+   top:"15%",
    scale:.9,
    ease:Power0,
-   delay:-.5
+   delay:-.5,
+   duration:4
 },"z")
 tlt.to(".filter",{
    filter:"blur(5px)",
    opacity:0,
-   delay:-.3
-})
+   duration:3,
+   delay:1.5,
+   ease:Power1
+},"z")
 
 
 
