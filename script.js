@@ -120,18 +120,54 @@ tl.to("#pimg",{
    opacity:"0",
 
  })
+
  tl.to(".date-text",{
    top:"-90%",
    ease:Power1,
    duration:10,
 
  },"k")
+ 
  tl.to("#history-innerline",{
    bottom:"0%",
    ease:Power1,
    duration:6,
-   delay:3
+   delay:2
  },"k")
+  tl.to("#date-p-one",{
+   opacity:.7,
+   delay:2
+},"k")
+  tl.to("#date-p-two",{
+   opacity:1,
+   delay:2.3
+},"k")
+  tl.to("#date-p-two",{
+   opacity:.7,
+   delay:2.9
+},"k")
+  tl.to("#date-p-three",{
+   opacity:1,
+   delay:3.3
+},"k")
+  tl.to("#date-p-three",{
+   opacity:.7,
+   delay:3.8
+},"k")
+  tl.to("#date-p-four",{
+   opacity:1,
+   delay:4.7
+},"k")
+  tl.to("#date-p-four",{
+   opacity:.7,
+   delay:5.3
+},"k")
+tl.to("#date-p-five",{
+   opacity:1,
+   delay:6.3
+},"k")
+ 
+
 
 tl.to(".key-section-middle-content",{
    top:"0%",
@@ -338,6 +374,7 @@ tlt.to(".coh-row-inner",{
    delay:-.5,
    duration:4
 },"z")
+
 tlt.to(".filter",{
    filter:"blur(5px)",
    opacity:0,
@@ -345,6 +382,7 @@ tlt.to(".filter",{
    delay:1.5,
    ease:Power1
 },"z")
+
 
 
 

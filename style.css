@@ -443,6 +443,10 @@ top: 100%;
 display: flex;
 justify-content: space-between;
 margin-bottom: 140px;
+opacity: .6;
+}
+#date-p-one{
+  opacity: 1;
 }
 .date-p{
   width: 500px;
@@ -462,4 +466,26 @@ margin-bottom: 140px;
   height: 120px;
   background-color: rgb(251, 243, 243);
   position: absolute;
+}
+@media (max-width:500px){
+  .date-txt{
+    display: initial;
+   
+
+  }
+  .date-txt>h1{
+    font-size: 30px;
+    padding-left: 120px;
+  }
+  .date-p{
+    width: 300px;
+    padding-left:20px ;
+    padding-bottom: 40px;
+  }
+  #history-line{
+    height: 180vh;
+  }
+  .history-txt{
+    width: 300px;
+  }
 }
