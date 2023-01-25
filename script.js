@@ -122,51 +122,62 @@ tl.to("#pimg",{
  })
 
  tl.to(".date-text",{
-   top:"-100%",
+   top:"-180%",
    ease:Power1,
    duration:10,
 
  },"k")
  
- tl.to("#history-innerline",{
-   top:"70%",
+ tl.to("#history-line",{
+   top:"0%",
    ease:Power1,
-   duration:6,
-   delay:2
+   duration:2.8   
+ },"k")
+ tl.to("#history-innerline",{
+   top:"45%",
+   ease:Power1,
+   delay:1.3,
+   duration:2
  },"k")
   tl.to("#date-p-one",{
    opacity:.7,
+   delay:1
+},"k")
+  tl.to("#date-p-two",{
+   opacity:1,
    delay:2
 },"k")
   tl.to("#date-p-two",{
-   opacity:1,
-   delay:2.7
-},"k")
-  tl.to("#date-p-two",{
    opacity:.7,
-   delay:3.4
+   delay:2.5
 },"k")
   tl.to("#date-p-three",{
    opacity:1,
-   delay:3.9
+   delay:3.2
 },"k")
   tl.to("#date-p-three",{
    opacity:.7,
-   delay:4.5
+   delay:3.7
 },"k")
   tl.to("#date-p-four",{
    opacity:1,
-   delay:5.8
+   delay:4.8
 },"k")
   tl.to("#date-p-four",{
    opacity:.7,
-   delay:7.2
+   delay:5.4
 },"k")
 tl.to("#history-innerline",{
+   top:"85%",
    ease:Power1,
-   duration:3,
-   top:"90%",
-   delay:7.2
+   delay:7,
+   duration:2
+ },"k")
+tl.to("#history-line",{
+   top:"-45%",
+   ease:Power1,
+   delay:7,
+   duration:2
  },"k")
 tl.to("#date-p-five",{
    opacity:1,
