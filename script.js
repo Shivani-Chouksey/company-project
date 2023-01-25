@@ -122,14 +122,14 @@ tl.to("#pimg",{
  })
 
  tl.to(".date-text",{
-   top:"-90%",
+   top:"-100%",
    ease:Power1,
    duration:10,
 
  },"k")
  
  tl.to("#history-innerline",{
-   bottom:"0%",
+   top:"70%",
    ease:Power1,
    duration:6,
    delay:2
@@ -140,31 +140,37 @@ tl.to("#pimg",{
 },"k")
   tl.to("#date-p-two",{
    opacity:1,
-   delay:2.3
+   delay:2.7
 },"k")
   tl.to("#date-p-two",{
    opacity:.7,
-   delay:2.9
+   delay:3.4
 },"k")
   tl.to("#date-p-three",{
    opacity:1,
-   delay:3.3
+   delay:3.9
 },"k")
   tl.to("#date-p-three",{
    opacity:.7,
-   delay:3.8
+   delay:4.5
 },"k")
   tl.to("#date-p-four",{
    opacity:1,
-   delay:4.7
+   delay:5.8
 },"k")
   tl.to("#date-p-four",{
    opacity:.7,
-   delay:5.3
+   delay:7.2
 },"k")
+tl.to("#history-innerline",{
+   ease:Power1,
+   duration:3,
+   top:"90%",
+   delay:7.2
+ },"k")
 tl.to("#date-p-five",{
    opacity:1,
-   delay:6.3
+   delay:8.7,
 },"k")
  
 

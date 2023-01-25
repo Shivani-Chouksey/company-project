@@ -429,15 +429,12 @@ top: 100%;
   font-size: 38px;
  }
  .date-text{
-  /* white-space: nowrap; */
   width: 70vw;
-  /* height: 50vh; */
   padding: 20px 70px;
   color: rgb(250, 248, 248);
-  /* background-color: #ffffff; */
   position: absolute;
   top: 100%;
-  text-align: center;
+  text-align: left;
  }
 .date-txt{
 display: flex;
