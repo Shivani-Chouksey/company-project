@@ -383,17 +383,19 @@ const tlt= gsap.timeline({
    stagger:1,
 },
 })
-tlt.from(".coh-view-filter",{
-   opacity:0,
-   ease:Power1
-},"z")
+
 
 tlt.to(".coh-row-inner",{
    top:"15%",
    scale:.9,
    ease:Power0,
-   delay:-.5,
+   // delay:-.2,
    duration:4
+},"z")
+tlt.from(".coh-view-filter",{
+   opacity:0,
+   ease:Power1,
+   delay:1.5
 },"z")
 
 tlt.to(".filter",{
