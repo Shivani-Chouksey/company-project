@@ -450,7 +450,8 @@ opacity: .6;
 }
 #history-line{
   width: 4px;
-  height: 100vh;
+  border-left: 3px solid #4b4b4b;
+  /* height: 100vh; */
   z-index: 999;
   position: absolute;
   top: 100%;
