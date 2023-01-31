@@ -383,6 +383,10 @@ const tlt= gsap.timeline({
    stagger:1,
 },
 })
+tlt.from(".coh-view-filter",{
+   opacity:0,
+   ease:Power1
+},"z")
 
 tlt.to(".coh-row-inner",{
    top:"15%",
