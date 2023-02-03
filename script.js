@@ -408,6 +408,17 @@ tlt.to(".filter",{
 
 
 
+document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseenter",function(){
+   document.querySelector(".coh-container>p").style.display="block";
+   // document.querySelector(".coh-container").style.marginBottom="10px";
+
+})
+document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseleave",function(){
+   document.querySelector(".coh-container>p").style.display="none";
+})
+
+
+
 
 
 

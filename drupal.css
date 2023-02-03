@@ -698,7 +698,12 @@ body { font-size: 16px; }
 
   
 .lp-teaser-filter-see-more-container-button{position: absolute;width: 100vw;height: 300px; top:85%;left: 2%;}
-.coh-container { display: block; }
+/* .coh-container { display: block;margin-bottom: 15px;
+} */
+.coh-container>p{
+  padding-bottom: 100px;
+  display: none;
+}
 .coh-container:before, .coh-container:after { clear: both; content: " "; display: table; }
 .coh-container-boxed { margin: 0 auto; max-width: 83.75rem; }
 @media (max-width: 1399px) { .coh-container-boxed { margin: 0 auto; max-width: 69.375rem; } }
