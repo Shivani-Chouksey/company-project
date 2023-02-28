@@ -5,6 +5,7 @@
     text-transform: uppercase;
     justify-content: center;
     list-style: none;
+    opacity: 1;
   }
   
   .coh-view-filter.lp-teaser-filter-nav-container .active {

@@ -384,9 +384,20 @@ const tlt= gsap.timeline({
 },
 })
 
-
+tlt.to(".coh-view-filter.lp-teaser-filter-nav-container",{
+   opacity:1,
+   ease:Power1,
+   position:" relative"
+},"z")
+tlt.from(".coh-row",{
+   marginLeft: "-320px",
+   delay:1,
+   ease:Power1,
+   duration:4
+},"z")
 tlt.to(".coh-row-inner",{
-   top:"15%",
+  marginTop:"100px",
+  width:"95vw",
    scale:.9,
    ease:Power0,
    // delay:-.2,
@@ -408,14 +419,14 @@ tlt.to(".filter",{
 
 
 
-document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseenter",function(){
-   document.querySelector(".coh-container>p").style.display="block";
-   // document.querySelector(".coh-container").style.marginBottom="10px";
+// document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseenter",function(){
+//    document.querySelector(".coh-container>p").style.display="block";
+//    document.querySelector(".coh-container").style.marginBottom="10px";
 
-})
-document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseleave",function(){
-   document.querySelector(".coh-container>p").style.display="none";
-})
+// })
+// document.querySelector(".coh-visible-xs:nth-child(2)").addEventListener("mouseleave",function(){
+//    document.querySelector(".coh-container>p").style.display="none";
+// })
 
 
 
